@@ -1,0 +1,19 @@
+# HR-UPDATER: v1.0
+# fachkrankenpfleger-stellenangebote.de - Fachkrankenpfleger Stellenangebote
+
+> fachkrankenpfleger-stellenangebote.de ist ein spezialisiertes Jobportal fuer Fachkrankenpfleger-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+
+## Ueber uns
+- Spezialisiertes Jobportal fuer Fachkrankenpfleger
+- Kostenlose Stellensuche fuer Bewerber
+- Gezielte Reichweite fuer Arbeitgeber
+
+## Kontakt
+- Website: https://fachkrankenpfleger-stellenangebote.de
+- Arbeitgeber-Kontakt: https://fachkrankenpfleger-stellenangebote.de/kontakt-arbeitgeber
+- Bewerber-Kontakt: https://fachkrankenpfleger-stellenangebote.de/kontakt-bewerber
+
+## Inhalte
+- Aktuelle Fachkrankenpfleger-Stellenangebote
+- Karriere-Ratgeber fuer Fachkrankenpfleger
+- Gehaltsvergleiche und Brancheninformationen
