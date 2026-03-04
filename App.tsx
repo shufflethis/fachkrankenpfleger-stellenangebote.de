@@ -2,6 +2,7 @@
 import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
+import Employees from './pages/Employees';
 import Contact from './pages/Contact';
 import Impressum from './pages/Impressum';
 import Datenschutz from './pages/Datenschutz';
@@ -12,6 +13,7 @@ const App: React.FC = () => {
     <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/arbeitnehmer" element={<Employees />} />
         <Route path="/kontakt" element={<Contact />} />
         <Route path="/impressum" element={<Impressum />} />
         <Route path="/datenschutz" element={<Datenschutz />} />

@@ -6,6 +6,7 @@ export interface JobOffer {
   salary: string;
   tags: string[];
   description: string;
+  postedDate: string;
 }
 
 export interface NavItem {
