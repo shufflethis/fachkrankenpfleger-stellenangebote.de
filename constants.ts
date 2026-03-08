@@ -3,6 +3,36 @@ import { JobOffer } from './types';
 export const MOCK_JOBS: JobOffer[] = [
   {
     id: '1',
+    title: 'Fachkrankenpfleger/in - Psychiatrie',
+    hospital: 'Gesellschaft zur Förderung seelischer Gesundheit GmbH',
+    location: 'Bezirk: Graz(Stadt)',
+    type: 'Vollzeit',
+    description: 'Fachkrankenpfleger/in - Psychiatrie',
+    tags: ['Fachkrankenpfleger/in - Psychiatrie'],
+    postedDate: '2026-03-06'
+  },
+  {
+    id: '2',
+    title: 'Fachkrankenpfleger Intensiv (m/w/d)',
+    hospital: 'Avanti GmbH NL Stuttgart',
+    location: 'Stuttgart',
+    type: 'Vollzeit',
+    description: 'Fachkrankenpfleger Intensiv (m/w/d)',
+    tags: ['Fachkrankenpfleger/in - Intensivpflege/Anästhesie'],
+    postedDate: '2026-03-06'
+  },
+  {
+    id: '3',
+    title: 'Fachkrankenschwester (m/w/d) für den Operationsdienst',
+    hospital: 'EMMA JOBS in München',
+    location: 'München',
+    type: 'Vollzeit',
+    description: 'Fachkrankenschwester (m/w/d) für den Operationsdienst',
+    tags: ['Operationstechnische/r Angestellte/r'],
+    postedDate: '2026-03-04'
+  },
+  {
+    id: '4',
     title: 'Kundenberater (m/w/d)',
     hospital: 'Boerger Tankservice GmbHSofort-Bewerbung',
     location: 'München',
@@ -12,7 +42,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-04'
   },
   {
-    id: '2',
+    id: '5',
     title: 'Fahrer und Messgehilfe (m/w/d)',
     hospital: 'Landratsamt Schwäbisch Hall',
     location: 'Crailsheim',
@@ -22,7 +52,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-04'
   },
   {
-    id: '3',
+    id: '6',
     title: 'Fahrer und Messgehilfe (m/w/d)',
     hospital: 'Landratsamt Schwäbisch Hall',
     location: 'Schwäbisch Hall',
@@ -32,7 +62,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-04'
   },
   {
-    id: '4',
+    id: '7',
     title: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
     hospital: 'Kinder- und Jugendhilfe Weidenkorb',
     location: 'Löhne',
@@ -42,7 +72,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-04'
   },
   {
-    id: '5',
+    id: '8',
     title: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
     hospital: 'Kinder- und Jugendhilfe Weidenkorb',
     location: 'Espelkamp',
@@ -52,7 +82,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-04'
   },
   {
-    id: '6',
+    id: '9',
     title: 'Physiotherapeut*in (m/w/d) mit Zusatzqualifikation',
     hospital: 'Reha-Zentrum Gesundheit Nordhessen GmbH',
     location: 'Kassel',
@@ -62,7 +92,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-04'
   },
   {
-    id: '7',
+    id: '10',
     title: 'Fachkrankenpfleger - OP (m/w/d)',
     hospital: 'Impuls Personal GmbH Filiale Köln',
     location: 'Köln',
@@ -72,7 +102,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-04'
   },
   {
-    id: '8',
+    id: '11',
     title: 'Fachkrankenpfleger - OP (m/w/d)',
     hospital: 'Impuls Personal GmbH Filiale Köln',
     location: 'Bergisch Gladbach',
@@ -82,7 +112,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-03'
   },
   {
-    id: '9',
+    id: '12',
     title: 'Fachkrankenpfleger/in - Psychiatrie',
     hospital: 'Pflege und Sozialdienste Dornbirn GmbH',
     location: 'Dornbirn',
@@ -92,7 +122,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-03'
   },
   {
-    id: '10',
+    id: '13',
     title: 'Fachkrankenpfleger/in - Psychiatrie',
     hospital: 'Bgld. Pflegeheim Betriebs-G es.mbH',
     location: 'Neudörfl',
@@ -102,7 +132,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-03'
   },
   {
-    id: '11',
+    id: '14',
     title: 'Fachkrankenpfleger (m/w/d) - Intensiv',
     hospital: 'Unique Personal Service SüdWest GmbH',
     location: 'Bonn',
@@ -112,7 +142,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-02'
   },
   {
-    id: '12',
+    id: '15',
     title: 'Fachkrankenpfleger (m/w/d) Onkologie',
     hospital: 'Med-Spezialisten GmbH',
     location: 'Berlin',
@@ -122,7 +152,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-02'
   },
   {
-    id: '13',
+    id: '16',
     title: 'Fachkrankenpfleger (m/w/d)',
     hospital: 'KCS Medical GmbH',
     location: 'Heidelberg, Neckar',
@@ -132,7 +162,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-02-27'
   },
   {
-    id: '14',
+    id: '17',
     title: 'Fachkrankenpfleger (m/w/d)',
     hospital: 'KCS Medical GmbH',
     location: 'Mannheim',
@@ -142,7 +172,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-02-27'
   },
   {
-    id: '15',
+    id: '18',
     title: 'Fachkrankenpfleger (m/w/d)',
     hospital: 'KCS Medical GmbH',
     location: 'Mainz am Rhein',
@@ -152,7 +182,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-02-27'
   },
   {
-    id: '16',
+    id: '19',
     title: 'Fachkrankenpfleger (m/w/d)',
     hospital: 'KCS Medical GmbH',
     location: 'Frankfurt am Main',
@@ -162,7 +192,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-02-27'
   },
   {
-    id: '17',
+    id: '20',
     title: 'Fachkrankenpfleger (m/w/d)',
     hospital: 'KCS Medical GmbH',
     location: 'Berlin',
@@ -172,7 +202,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-02-27'
   },
   {
-    id: '18',
+    id: '21',
     title: 'Fachkrankenpfleger Intensiv (m/w/d)',
     hospital: 'KCS Medical GmbH',
     location: 'München',
@@ -182,7 +212,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-02-27'
   },
   {
-    id: '19',
+    id: '22',
     title: 'Fachkrankenpfleger (m/w/d) für Intensivpflege',
     hospital: 'KCS Medical GmbH',
     location: 'Köln',
@@ -192,7 +222,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-02-27'
   },
   {
-    id: '20',
+    id: '23',
     title: 'Fachkrankenpfleger Intensiv (m/w/d)',
     hospital: 'KCS Medical GmbH',
     location: 'Dresden',
@@ -202,7 +232,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-02-27'
   },
   {
-    id: '21',
+    id: '24',
     title: 'Fachkrankenpfleger Notfallpflege (m/w/d)',
     hospital: 'KCS Medical GmbH',
     location: 'München',
@@ -212,7 +242,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-02-27'
   },
   {
-    id: '22',
+    id: '25',
     title: 'Fachkrankenpfleger Anästhesie (m/w/d)',
     hospital: 'CONFIANZA GmbH Personalmanagement',
     location: 'Augsburg, Bayern',
@@ -220,35 +250,5 @@ export const MOCK_JOBS: JobOffer[] = [
     description: 'Fachkrankenpfleger Anästhesie (m/w/d)',
     tags: ['Fachkrankenpfleger/in - Intensivpflege/Anästhesie'],
     postedDate: '2026-02-27'
-  },
-  {
-    id: '23',
-    title: 'Fachkrankenpfleger/in - Psychiatrie',
-    hospital: 'A.ö.Krankenhaus St.Vinzenz Betriebsges.m.b.H.',
-    location: 'Zams',
-    type: 'Vollzeit',
-    description: 'Fachkrankenpfleger/in - Psychiatrie',
-    tags: ['Fachkrankenpfleger/in - Psychiatrie'],
-    postedDate: '2026-02-25'
-  },
-  {
-    id: '24',
-    title: 'Fachkrankenpfleger (m/w/d) Psychosomatik',
-    hospital: 'Med-Spezialisten GmbH',
-    location: 'Bühl, Baden',
-    type: 'Vollzeit',
-    description: 'Fachkrankenpfleger (m/w/d) Psychosomatik',
-    tags: ['Fachkrankenpfleger/in - Psychiatrie'],
-    postedDate: '2026-02-22'
-  },
-  {
-    id: '25',
-    title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
-    hospital: 'Mein Zentrum Dr. Klug & Steinbrecher OG',
-    location: 'Hausleiten',
-    type: 'Vollzeit',
-    description: 'Fachkrankenschwester/-pfleger - Operationsdienst',
-    tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
-    postedDate: '2026-02-20'
   }
 ];
