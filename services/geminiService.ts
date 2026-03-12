@@ -1,15 +1,17 @@
 import { GoogleGenAI } from "@google/genai";
 
+const FALLBACK_MESSAGE = "Der KI-Assistent ist derzeit nicht verfügbar. Bitte versuchen Sie es später erneut.";
+
 export const generateJobDescription = async (
   title: string,
   requirements: string,
   benefits: string
 ): Promise<string> => {
+  const apiKey = process.env.API_KEY || '';
+  if (!apiKey) return FALLBACK_MESSAGE;
+
   try {
-    // Initialize Gemini API inside the function call.
-    // This prevents top-level access to process.env which might fail during module loading
-    // and ensures the latest API key is used.
-    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    const ai = new GoogleGenAI({ apiKey });
     
     const model = 'gemini-2.5-flash';
     const prompt = `
@@ -37,6 +39,6 @@ export const generateJobDescription = async (
     return response.text || "Es konnte keine Beschreibung generiert werden.";
   } catch (error) {
     console.error("Error generating job description:", error);
-    throw new Error("Fehler bei der Generierung der Stellenanzeige. Bitte versuchen Sie es später erneut.");
+    return FALLBACK_MESSAGE;
   }
 };
