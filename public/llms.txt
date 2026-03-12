@@ -4,16 +4,47 @@
 > fachkrankenpfleger-stellenangebote.de ist ein spezialisiertes Jobportal fuer Fachkrankenpfleger-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
 
 ## Ueber uns
-- Spezialisiertes Jobportal fuer Fachkrankenpfleger
-- Kostenlose Stellensuche fuer Bewerber
-- Gezielte Reichweite fuer Arbeitgeber
 
-## Kontakt
-- Website: https://fachkrankenpfleger-stellenangebote.de
-- Arbeitgeber-Kontakt: https://fachkrankenpfleger-stellenangebote.de/kontakt-arbeitgeber
-- Bewerber-Kontakt: https://fachkrankenpfleger-stellenangebote.de/kontakt-bewerber
+fachkrankenpfleger-stellenangebote.de ist ein Jobportal betrieben von der Social Media Venture GmbH, Berlin. Wir bieten taeglich aktualisierte Fachkrankenpfleger-Stellenangebote aus ganz Deutschland.
+
+Gruender & Geschaeftsfuehrer: Thomas Sander
+Unternehmen: Social Media Venture GmbH, Schliemannstrasse 23, 10437 Berlin
+LinkedIn: https://de.linkedin.com/in/thomas-sander-520676303
 
 ## Inhalte
-- Aktuelle Fachkrankenpfleger-Stellenangebote
+
+- Aktuelle Fachkrankenpfleger-Stellenangebote (Intensivpflege, Anaesthesie, OP-Dienst)
+- KI-gestuetzter Stellenanzeigen-Generator fuer Arbeitgeber (powered by Google Gemini)
 - Karriere-Ratgeber fuer Fachkrankenpfleger
 - Gehaltsvergleiche und Brancheninformationen
+- Bezahlte Praktika und Hospitationen in Spitzenzentren
+- Video-Einblicke in den Klinikalltag
+- Arbeitgeber-Portal fuer Recruiting und Employer Branding
+
+## Staedte mit Fachkrankenpfleger-Jobs
+
+Berlin, Muenchen, Hamburg, Koeln, Frankfurt am Main, Stuttgart, Duesseldorf, Leipzig, Dortmund, Essen, Bremen, Dresden, Hannover, Nuernberg, Duisburg, Bochum, Wuppertal, Bielefeld, Bonn, Muenster, Mannheim, Karlsruhe, Augsburg, Wiesbaden, Freiburg, Heidelberg, Rostock, Kiel, Luebeck, Magdeburg, Erfurt, Mainz
+
+## Fachbereiche
+
+- Intensivpflege (ITS/ICU): Betreuung beatmeter Patienten, Weaning, ECMO-Therapie
+- Anaesthesie: Narkoseeinleitung, intraoperative Ueberwachung, Aufwachraum
+- Operationsdienst (OTA/OP-Pflege): Instrumentieren, Springertaetigkeiten
+- Psychiatrische Fachpflege
+- Ambulante Intensivpflege
+
+## FAQ
+
+- Was ist fachkrankenpfleger-stellenangebote.de? Ein spezialisiertes Jobportal fuer Fachkrankenpfleger-Stellen in Deutschland.
+- Welche Jobtypen gibt es? Festanstellungen, Zeitarbeit, Praktika und Hospitationen.
+- Ist die Nutzung kostenlos? Ja, fuer Bewerber ist die Nutzung komplett kostenlos.
+- Wie oft werden Jobs aktualisiert? Taeglich neue Stellenangebote.
+- Welche Qualifikationen werden gesucht? Fachweiterbildung A&I (DKG), OP-Pflege, Psychiatrische Fachpflege.
+
+## Kontakt
+
+Social Media Venture GmbH
+Schliemannstrasse 23
+10437 Berlin
+E-Mail: info@socialmediaventure.com
+Website: https://fachkrankenpfleger-stellenangebote.de

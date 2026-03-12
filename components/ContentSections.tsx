@@ -9,7 +9,7 @@ const FAQItem: React.FC<{ question: string; answer: string }> = ({ question, ans
 
 export const EmployerSection: React.FC = () => {
   return (
-    <section id="arbeitgeber" className="py-20 bg-white">
+    <section id="arbeitgeber" className="py-12 md:py-20 bg-white">
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-12">
           <span className="text-medical-600 font-semibold tracking-wider uppercase text-sm">Für Kliniken & Pflegeeinrichtungen</span>
@@ -68,7 +68,7 @@ export const EmployerSection: React.FC = () => {
 
 export const EmployeeSection: React.FC = () => {
   return (
-    <section id="fachkraefte" className="py-20 bg-gray-50">
+    <section id="fachkraefte" className="py-12 md:py-20 bg-gray-50">
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-12">
           <span className="text-medical-600 font-semibold tracking-wider uppercase text-sm">Für Pflegeexperten</span>
@@ -142,7 +142,7 @@ export const EmployeeSection: React.FC = () => {
 
 export const InternshipSection: React.FC = () => {
   return (
-    <section id="praktika" className="py-20 bg-medical-900 text-white">
+    <section id="praktika" className="py-12 md:py-20 bg-medical-900 text-white">
       <div className="max-w-6xl mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>

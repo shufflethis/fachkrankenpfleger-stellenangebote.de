@@ -26,9 +26,9 @@ const JobGenerator: React.FC = () => {
   };
 
   return (
-    <section id="ai-tool" className="py-20 bg-gradient-to-br from-indigo-900 to-medical-900 text-white">
+    <section id="ai-tool" className="py-12 md:py-20 bg-gradient-to-br from-indigo-900 to-medical-900 text-white">
       <div className="max-w-6xl mx-auto px-4">
-        <div className="grid md:grid-cols-2 gap-12 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-start">
           
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
