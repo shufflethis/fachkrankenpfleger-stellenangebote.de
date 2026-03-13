@@ -26,17 +26,17 @@ const Navigation: React.FC = () => {
           
           <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
-              <a 
-                key={link.name} 
-                href={link.href} 
+              <button
+                key={link.name}
+                onClick={() => document.getElementById(link.href.replace('#', ''))?.scrollIntoView({ behavior: 'smooth' })}
                 className="text-gray-600 hover:text-medical-600 font-medium transition-colors"
               >
                 {link.name}
-              </a>
+              </button>
             ))}
-            <a href="#kontakt" className="bg-medical-600 hover:bg-medical-700 text-white px-5 py-2.5 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all">
+            <button onClick={() => document.getElementById('kontakt')?.scrollIntoView({ behavior: 'smooth' })} className="bg-medical-600 hover:bg-medical-700 text-white px-5 py-2.5 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all">
               Jetzt Kontaktieren
-            </a>
+            </button>
           </div>
 
           <div className="md:hidden flex items-center">
@@ -54,18 +54,17 @@ const Navigation: React.FC = () => {
         <div className="md:hidden bg-white border-t border-gray-100">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {navLinks.map((link) => (
-              <a 
-                key={link.name} 
-                href={link.href} 
-                onClick={() => setIsOpen(false)}
-                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-medical-600 hover:bg-medical-50"
+              <button
+                key={link.name}
+                onClick={() => { document.getElementById(link.href.replace('#', ''))?.scrollIntoView({ behavior: 'smooth' }); setIsOpen(false); }}
+                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-medical-600 hover:bg-medical-50 w-full text-left"
               >
                 {link.name}
-              </a>
+              </button>
             ))}
-             <a href="#kontakt" onClick={() => setIsOpen(false)} className="block w-full text-center mt-4 bg-medical-600 text-white px-3 py-3 rounded-md font-bold">
+             <button onClick={() => { document.getElementById('kontakt')?.scrollIntoView({ behavior: 'smooth' }); setIsOpen(false); }} className="block w-full text-center mt-4 bg-medical-600 text-white px-3 py-3 rounded-md font-bold">
               Jetzt Kontaktieren
-            </a>
+            </button>
           </div>
         </div>
       )}
