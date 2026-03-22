@@ -3,252 +3,252 @@ import { JobOffer } from './types';
 export const MOCK_JOBS: JobOffer[] = [
   {
     id: '1',
-    title: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
-    hospital: 'Medisca GmbH',
-    location: 'Kabelsketal',
+    title: 'Versand- & Lagermitarbeiter (m/w/d) als Shipping & Receiving Clerk',
+    hospital: 'Elevate Aircraft Seating GmbH',
+    location: 'Kaiserslautern',
     type: 'Vollzeit',
-    description: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
+    description: 'Versand- & Lagermitarbeiter (m/w/d) als Shipping & Receiving Clerk',
     tags: [],
-    postedDate: '2026-03-15'
+    postedDate: '2026-03-22'
   },
   {
     id: '2',
-    title: 'Zahnarzt (m/w/d)',
-    hospital: 'MeinDentist Berlin GmbH',
-    location: 'Potsdam',
+    title: 'Mitarbeiter Kundenservice Online Banking (m/w/d)',
+    hospital: 'Serviscope AG',
+    location: 'Köln',
     type: 'Vollzeit',
-    description: 'Zahnarzt (m/w/d)',
+    description: 'Mitarbeiter Kundenservice Online Banking (m/w/d)',
     tags: [],
-    postedDate: '2026-03-15'
+    postedDate: '2026-03-22'
   },
   {
     id: '3',
-    title: 'Zahnarzt (m/w/d)',
-    hospital: 'MeinDentist Berlin GmbH',
-    location: 'Berlin',
+    title: 'Mitarbeiter Kundenservice Online Banking (m/w/d)',
+    hospital: 'Serviscope AG',
+    location: 'Troisdorf',
     type: 'Vollzeit',
-    description: 'Zahnarzt (m/w/d)',
+    description: 'Mitarbeiter Kundenservice Online Banking (m/w/d)',
     tags: [],
-    postedDate: '2026-03-15'
+    postedDate: '2026-03-22'
   },
   {
     id: '4',
-    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
-    hospital: 'avs SYSTEM LIFT AGSofort-Bewerbung',
-    location: 'Hannover',
+    title: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
+    hospital: 'Scheidt & Bachmann Signalling Systems GmbH',
+    location: 'Düsseldorf',
     type: 'Vollzeit',
-    description: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    description: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
     tags: [],
-    postedDate: '2026-03-15'
+    postedDate: '2026-03-22'
   },
   {
     id: '5',
-    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
-    hospital: 'avs SYSTEM LIFT AGSofort-Bewerbung',
-    location: 'Isernhagen',
+    title: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
+    hospital: 'Scheidt & Bachmann Signalling Systems GmbH',
+    location: 'Mönchengladbach',
     type: 'Vollzeit',
-    description: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    description: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
     tags: [],
-    postedDate: '2026-03-15'
+    postedDate: '2026-03-22'
   },
   {
     id: '6',
-    title: 'Haustechniker/in (m/w/d) für Bestandsimmobilien mit großer Dienstwohnung',
-    hospital: 'Neuerburg GrundstücksgemeinschaftSofort-Bewerbung',
-    location: 'Köln',
+    title: 'Sachbearbeitung Umsatzsteuer und Kommunalabgaben (m/w/d)',
+    hospital: 'Gemeinde HudeSofort-Bewerbung',
+    location: 'Hude (Oldb)',
     type: 'Vollzeit',
-    description: 'Haustechniker/in (m/w/d) für Bestandsimmobilien mit großer Dienstwohnung',
+    description: 'Sachbearbeitung Umsatzsteuer und Kommunalabgaben (m/w/d)',
     tags: [],
-    postedDate: '2026-03-15'
+    postedDate: '2026-03-22'
   },
   {
     id: '7',
-    title: 'Fachkrankenpfleger/in - Psychiatrie',
-    hospital: 'Gesellschaft zur Förderung seelischer Gesundheit GmbH',
-    location: 'Bezirk: Graz(Stadt)',
+    title: 'Fachkrankenpfleger (m/w/d) für die Intensivstation',
+    hospital: 'avanti GmbH NL Frankfurt am Main',
+    location: 'Bad Nauheim',
     type: 'Vollzeit',
-    description: 'Fachkrankenpfleger/in - Psychiatrie',
-    tags: ['Fachkrankenpfleger/in - Psychiatrie'],
-    postedDate: '2026-03-06'
+    description: 'Fachkrankenpfleger (m/w/d) für die Intensivstation',
+    tags: ['Fachkrankenpfleger/in - Intensivpflege/Anästhesie'],
+    postedDate: '2026-03-21'
   },
   {
     id: '8',
-    title: 'Fachkrankenpfleger Intensiv (m/w/d)',
-    hospital: 'Avanti GmbH NL Stuttgart',
-    location: 'Stuttgart',
+    title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    hospital: 'Hansa',
+    location: 'Graz,03.Bez.:Geidorf',
     type: 'Vollzeit',
-    description: 'Fachkrankenpfleger Intensiv (m/w/d)',
-    tags: ['Fachkrankenpfleger/in - Intensivpflege/Anästhesie'],
-    postedDate: '2026-03-06'
+    description: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
+    postedDate: '2026-03-20'
   },
   {
     id: '9',
-    title: 'Fachkrankenschwester (m/w/d) für den Operationsdienst',
-    hospital: 'EMMA JOBS in München',
-    location: 'München',
+    title: 'Fachkrankenschwester (m/w/d) Operationsdienst',
+    hospital: 'JobImpulse Nord GmbH Hannover',
+    location: 'Hannover',
     type: 'Vollzeit',
-    description: 'Fachkrankenschwester (m/w/d) für den Operationsdienst',
-    tags: ['Operationstechnische/r Angestellte/r'],
-    postedDate: '2026-03-04'
+    description: 'Fachkrankenschwester (m/w/d) Operationsdienst',
+    tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
+    postedDate: '2026-03-19'
   },
   {
     id: '10',
-    title: 'Kundenberater (m/w/d)',
-    hospital: 'Boerger Tankservice GmbHSofort-Bewerbung',
-    location: 'München',
+    title: 'Fachkrankenpflegerin / Fachkrankenpfleger (m/w/d)',
+    hospital: 'Bundeswehr',
+    location: 'Ulm, Donau',
     type: 'Vollzeit',
-    description: 'Kundenberater (m/w/d)',
-    tags: [],
-    postedDate: '2026-03-04'
+    description: 'Fachkrankenpflegerin / Fachkrankenpfleger (m/w/d)',
+    tags: ['Fachkrankenpfleger/in - Nephrologie'],
+    postedDate: '2026-03-19'
   },
   {
     id: '11',
-    title: 'Fahrer und Messgehilfe (m/w/d)',
-    hospital: 'Landratsamt Schwäbisch Hall',
-    location: 'Crailsheim',
+    title: 'Fachkrankenpflegerin / Fachkrankenpfleger (m/w/d)',
+    hospital: 'Bundeswehr',
+    location: 'Feldkirchen, Kreis München',
     type: 'Vollzeit',
-    description: 'Fahrer und Messgehilfe (m/w/d)',
-    tags: [],
-    postedDate: '2026-03-04'
+    description: 'Fachkrankenpflegerin / Fachkrankenpfleger (m/w/d)',
+    tags: ['Fachkrankenpfleger/in - Nephrologie'],
+    postedDate: '2026-03-19'
   },
   {
     id: '12',
-    title: 'Fahrer und Messgehilfe (m/w/d)',
-    hospital: 'Landratsamt Schwäbisch Hall',
-    location: 'Schwäbisch Hall',
+    title: 'Fachkrankenpflegerin / Fachkrankenpfleger (m/w/d)',
+    hospital: 'Bundeswehr',
+    location: 'Koblenz am Rhein',
     type: 'Vollzeit',
-    description: 'Fahrer und Messgehilfe (m/w/d)',
-    tags: [],
-    postedDate: '2026-03-04'
+    description: 'Fachkrankenpflegerin / Fachkrankenpfleger (m/w/d)',
+    tags: ['Fachkrankenpfleger/in - Nephrologie'],
+    postedDate: '2026-03-19'
   },
   {
     id: '13',
-    title: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
-    hospital: 'Kinder- und Jugendhilfe Weidenkorb',
-    location: 'Löhne',
+    title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    hospital: 'PerMed medizinische Personaldienstleistung GmbH',
+    location: 'Bezirk: Salzburg(Stadt)',
     type: 'Vollzeit',
-    description: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
-    tags: [],
-    postedDate: '2026-03-04'
+    description: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
+    postedDate: '2026-03-18'
   },
   {
     id: '14',
-    title: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
-    hospital: 'Kinder- und Jugendhilfe Weidenkorb',
-    location: 'Espelkamp',
+    title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    hospital: 'PerMed medizinische Personaldienstleistung GmbH',
+    location: 'Eisenstadt',
     type: 'Vollzeit',
-    description: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
-    tags: [],
-    postedDate: '2026-03-04'
+    description: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
+    postedDate: '2026-03-18'
   },
   {
     id: '15',
-    title: 'Physiotherapeut*in (m/w/d) mit Zusatzqualifikation',
-    hospital: 'Reha-Zentrum Gesundheit Nordhessen GmbH',
-    location: 'Kassel',
+    title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    hospital: 'PerMed medizinische Personaldienstleistung GmbH',
+    location: 'Bludenz',
     type: 'Vollzeit',
-    description: 'Physiotherapeut*in (m/w/d) mit Zusatzqualifikation',
-    tags: [],
-    postedDate: '2026-03-04'
+    description: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
+    postedDate: '2026-03-18'
   },
   {
     id: '16',
-    title: 'Fachkrankenpfleger - OP (m/w/d)',
-    hospital: 'Impuls Personal GmbH Filiale Köln',
-    location: 'Köln',
+    title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    hospital: 'PerMed medizinische Personaldienstleistung GmbH',
+    location: 'Krumpendorf',
     type: 'Vollzeit',
-    description: 'Fachkrankenpfleger - OP (m/w/d)',
+    description: 'Fachkrankenschwester/-pfleger - Operationsdienst',
     tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
-    postedDate: '2026-03-04'
+    postedDate: '2026-03-18'
   },
   {
     id: '17',
-    title: 'Fachkrankenpfleger - OP (m/w/d)',
-    hospital: 'Impuls Personal GmbH Filiale Köln',
-    location: 'Bergisch Gladbach',
+    title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    hospital: 'PerMed medizinische Personaldienstleistung GmbH',
+    location: 'Bezirk: Graz(Stadt)',
     type: 'Vollzeit',
-    description: 'Fachkrankenpfleger - OP (m/w/d)',
+    description: 'Fachkrankenschwester/-pfleger - Operationsdienst',
     tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
-    postedDate: '2026-03-03'
+    postedDate: '2026-03-18'
   },
   {
     id: '18',
-    title: 'Fachkrankenpfleger/in - Psychiatrie',
-    hospital: 'Pflege und Sozialdienste Dornbirn GmbH',
-    location: 'Dornbirn',
+    title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    hospital: 'PerMed medizinische Personaldienstleistung GmbH',
+    location: 'Schruns',
     type: 'Vollzeit',
-    description: 'Fachkrankenpfleger/in - Psychiatrie',
-    tags: ['Fachkrankenpfleger/in - Psychiatrie'],
-    postedDate: '2026-03-03'
+    description: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
+    postedDate: '2026-03-18'
   },
   {
     id: '19',
-    title: 'Fachkrankenpfleger/in - Psychiatrie',
-    hospital: 'Bgld. Pflegeheim Betriebs-G es.mbH',
-    location: 'Neudörfl',
+    title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    hospital: 'PerMed medizinische Personaldienstleistung GmbH',
+    location: 'Wels',
     type: 'Vollzeit',
-    description: 'Fachkrankenpfleger/in - Psychiatrie',
-    tags: ['Fachkrankenpfleger/in - Psychiatrie'],
-    postedDate: '2026-03-03'
+    description: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
+    postedDate: '2026-03-18'
   },
   {
     id: '20',
-    title: 'Fachkrankenpfleger (m/w/d) - Intensiv',
-    hospital: 'Unique Personal Service SüdWest GmbH',
-    location: 'Bonn',
+    title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    hospital: 'PerMed medizinische Personaldienstleistung GmbH',
+    location: 'Radstadt',
     type: 'Vollzeit',
-    description: 'Fachkrankenpfleger (m/w/d) - Intensiv',
-    tags: ['Fachkrankenpfleger/in - Intensivpflege/Anästhesie'],
-    postedDate: '2026-03-02'
+    description: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
+    postedDate: '2026-03-18'
   },
   {
     id: '21',
-    title: 'Fachkrankenpfleger (m/w/d) Onkologie',
-    hospital: 'Med-Spezialisten GmbH',
-    location: 'Berlin',
+    title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    hospital: 'PerMed medizinische Personaldienstleistung GmbH',
+    location: 'Gleisdorf',
     type: 'Vollzeit',
-    description: 'Fachkrankenpfleger (m/w/d) Onkologie',
-    tags: ['Fachkrankenpfleger/in - Onkologie'],
-    postedDate: '2026-03-02'
+    description: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
+    postedDate: '2026-03-18'
   },
   {
     id: '22',
-    title: 'Fachkrankenpfleger (m/w/d)',
-    hospital: 'KCS Medical GmbH',
-    location: 'Heidelberg, Neckar',
+    title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    hospital: 'PerMed medizinische Personaldienstleistung GmbH',
+    location: 'Wolfsberg',
     type: 'Vollzeit',
-    description: 'Fachkrankenpfleger (m/w/d)',
-    tags: ['Fachkrankenpfleger/in - Notfallpflege'],
-    postedDate: '2026-02-27'
+    description: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
+    postedDate: '2026-03-18'
   },
   {
     id: '23',
-    title: 'Fachkrankenpfleger (m/w/d)',
-    hospital: 'KCS Medical GmbH',
-    location: 'Mannheim',
+    title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    hospital: 'PerMed medizinische Personaldienstleistung GmbH',
+    location: 'Liezen',
     type: 'Vollzeit',
-    description: 'Fachkrankenpfleger (m/w/d)',
-    tags: ['Fachkrankenpfleger/in - Notfallpflege'],
-    postedDate: '2026-02-27'
+    description: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
+    postedDate: '2026-03-18'
   },
   {
     id: '24',
-    title: 'Fachkrankenpfleger (m/w/d)',
-    hospital: 'KCS Medical GmbH',
-    location: 'Mainz am Rhein',
+    title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    hospital: 'PerMed medizinische Personaldienstleistung GmbH',
+    location: 'Bezirk: Villach Stadt',
     type: 'Vollzeit',
-    description: 'Fachkrankenpfleger (m/w/d)',
-    tags: ['Fachkrankenpfleger/in - Notfallpflege'],
-    postedDate: '2026-02-27'
+    description: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
+    postedDate: '2026-03-18'
   },
   {
     id: '25',
-    title: 'Fachkrankenpfleger (m/w/d)',
-    hospital: 'KCS Medical GmbH',
-    location: 'Frankfurt am Main',
+    title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    hospital: 'PerMed medizinische Personaldienstleistung GmbH',
+    location: 'Knittelfeld',
     type: 'Vollzeit',
-    description: 'Fachkrankenpfleger (m/w/d)',
-    tags: ['Fachkrankenpfleger/in - Notfallpflege'],
-    postedDate: '2026-02-27'
+    description: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
+    postedDate: '2026-03-18'
   }
 ];
