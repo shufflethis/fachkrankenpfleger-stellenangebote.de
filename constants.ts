@@ -3,6 +3,86 @@ import { JobOffer } from './types';
 export const MOCK_JOBS: JobOffer[] = [
   {
     id: '1',
+    title: 'Elektrotechniker EMSR-Technik (w/m/d)',
+    hospital: 'Infraserv GmbH & Co. Höchst KG',
+    location: 'Frankfurt am Main',
+    type: 'Vollzeit',
+    description: 'Elektrotechniker EMSR-Technik (w/m/d)',
+    tags: [],
+    postedDate: '2026-03-29'
+  },
+  {
+    id: '2',
+    title: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
+    hospital: 'Berufsgenossenschaft Rohstoffe und chemische Industrie (BG RCI)',
+    location: 'Langenhagen',
+    type: 'Vollzeit',
+    description: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
+    tags: [],
+    postedDate: '2026-03-29'
+  },
+  {
+    id: '3',
+    title: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
+    hospital: 'Berufsgenossenschaft Rohstoffe und chemische Industrie (BG RCI)',
+    location: 'Bochum',
+    type: 'Vollzeit',
+    description: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
+    tags: [],
+    postedDate: '2026-03-29'
+  },
+  {
+    id: '4',
+    title: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
+    hospital: 'Berufsgenossenschaft Rohstoffe und chemische Industrie (BG RCI)',
+    location: 'Ober-Olm',
+    type: 'Vollzeit',
+    description: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
+    tags: [],
+    postedDate: '2026-03-29'
+  },
+  {
+    id: '5',
+    title: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
+    hospital: 'Berufsgenossenschaft Rohstoffe und chemische Industrie (BG RCI)',
+    location: 'Heidelberg',
+    type: 'Vollzeit',
+    description: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
+    tags: [],
+    postedDate: '2026-03-29'
+  },
+  {
+    id: '6',
+    title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    hospital: 'PerMed medizinische Personaldienstleistung GmbH',
+    location: 'Bezirk: Klagenfurt Stadt',
+    type: 'Vollzeit',
+    description: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
+    postedDate: '2026-03-27'
+  },
+  {
+    id: '7',
+    title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    hospital: 'PerMed medizinische Personaldienstleistung GmbH',
+    location: 'Gmunden',
+    type: 'Vollzeit',
+    description: 'Fachkrankenschwester/-pfleger - Operationsdienst',
+    tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
+    postedDate: '2026-03-26'
+  },
+  {
+    id: '8',
+    title: 'Fachkrankenpfleger/in - Psychiatrie',
+    hospital: 'Haus Weinitzen',
+    location: 'Weinitzen',
+    type: 'Vollzeit',
+    description: 'Fachkrankenpfleger/in - Psychiatrie',
+    tags: ['Fachkrankenpfleger/in - Psychiatrie'],
+    postedDate: '2026-03-26'
+  },
+  {
+    id: '9',
     title: 'Versand- & Lagermitarbeiter (m/w/d) als Shipping & Receiving Clerk',
     hospital: 'Elevate Aircraft Seating GmbH',
     location: 'Kaiserslautern',
@@ -12,7 +92,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-22'
   },
   {
-    id: '2',
+    id: '10',
     title: 'Mitarbeiter Kundenservice Online Banking (m/w/d)',
     hospital: 'Serviscope AG',
     location: 'Köln',
@@ -22,7 +102,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-22'
   },
   {
-    id: '3',
+    id: '11',
     title: 'Mitarbeiter Kundenservice Online Banking (m/w/d)',
     hospital: 'Serviscope AG',
     location: 'Troisdorf',
@@ -32,7 +112,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-22'
   },
   {
-    id: '4',
+    id: '12',
     title: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
     hospital: 'Scheidt & Bachmann Signalling Systems GmbH',
     location: 'Düsseldorf',
@@ -42,7 +122,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-22'
   },
   {
-    id: '5',
+    id: '13',
     title: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
     hospital: 'Scheidt & Bachmann Signalling Systems GmbH',
     location: 'Mönchengladbach',
@@ -52,7 +132,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-22'
   },
   {
-    id: '6',
+    id: '14',
     title: 'Sachbearbeitung Umsatzsteuer und Kommunalabgaben (m/w/d)',
     hospital: 'Gemeinde HudeSofort-Bewerbung',
     location: 'Hude (Oldb)',
@@ -62,7 +142,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-22'
   },
   {
-    id: '7',
+    id: '15',
     title: 'Fachkrankenpfleger (m/w/d) für die Intensivstation',
     hospital: 'avanti GmbH NL Frankfurt am Main',
     location: 'Bad Nauheim',
@@ -72,7 +152,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-21'
   },
   {
-    id: '8',
+    id: '16',
     title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
     hospital: 'Hansa',
     location: 'Graz,03.Bez.:Geidorf',
@@ -82,7 +162,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-20'
   },
   {
-    id: '9',
+    id: '17',
     title: 'Fachkrankenschwester (m/w/d) Operationsdienst',
     hospital: 'JobImpulse Nord GmbH Hannover',
     location: 'Hannover',
@@ -92,7 +172,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-19'
   },
   {
-    id: '10',
+    id: '18',
     title: 'Fachkrankenpflegerin / Fachkrankenpfleger (m/w/d)',
     hospital: 'Bundeswehr',
     location: 'Ulm, Donau',
@@ -102,7 +182,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-19'
   },
   {
-    id: '11',
+    id: '19',
     title: 'Fachkrankenpflegerin / Fachkrankenpfleger (m/w/d)',
     hospital: 'Bundeswehr',
     location: 'Feldkirchen, Kreis München',
@@ -112,7 +192,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-19'
   },
   {
-    id: '12',
+    id: '20',
     title: 'Fachkrankenpflegerin / Fachkrankenpfleger (m/w/d)',
     hospital: 'Bundeswehr',
     location: 'Koblenz am Rhein',
@@ -122,7 +202,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-19'
   },
   {
-    id: '13',
+    id: '21',
     title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
     hospital: 'PerMed medizinische Personaldienstleistung GmbH',
     location: 'Bezirk: Salzburg(Stadt)',
@@ -132,7 +212,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-18'
   },
   {
-    id: '14',
+    id: '22',
     title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
     hospital: 'PerMed medizinische Personaldienstleistung GmbH',
     location: 'Eisenstadt',
@@ -142,7 +222,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-18'
   },
   {
-    id: '15',
+    id: '23',
     title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
     hospital: 'PerMed medizinische Personaldienstleistung GmbH',
     location: 'Bludenz',
@@ -152,7 +232,7 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-18'
   },
   {
-    id: '16',
+    id: '24',
     title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
     hospital: 'PerMed medizinische Personaldienstleistung GmbH',
     location: 'Krumpendorf',
@@ -162,90 +242,10 @@ export const MOCK_JOBS: JobOffer[] = [
     postedDate: '2026-03-18'
   },
   {
-    id: '17',
-    title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
-    hospital: 'PerMed medizinische Personaldienstleistung GmbH',
-    location: 'Bezirk: Graz(Stadt)',
-    type: 'Vollzeit',
-    description: 'Fachkrankenschwester/-pfleger - Operationsdienst',
-    tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
-    postedDate: '2026-03-18'
-  },
-  {
-    id: '18',
-    title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
-    hospital: 'PerMed medizinische Personaldienstleistung GmbH',
-    location: 'Schruns',
-    type: 'Vollzeit',
-    description: 'Fachkrankenschwester/-pfleger - Operationsdienst',
-    tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
-    postedDate: '2026-03-18'
-  },
-  {
-    id: '19',
-    title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
-    hospital: 'PerMed medizinische Personaldienstleistung GmbH',
-    location: 'Wels',
-    type: 'Vollzeit',
-    description: 'Fachkrankenschwester/-pfleger - Operationsdienst',
-    tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
-    postedDate: '2026-03-18'
-  },
-  {
-    id: '20',
-    title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
-    hospital: 'PerMed medizinische Personaldienstleistung GmbH',
-    location: 'Radstadt',
-    type: 'Vollzeit',
-    description: 'Fachkrankenschwester/-pfleger - Operationsdienst',
-    tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
-    postedDate: '2026-03-18'
-  },
-  {
-    id: '21',
-    title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
-    hospital: 'PerMed medizinische Personaldienstleistung GmbH',
-    location: 'Gleisdorf',
-    type: 'Vollzeit',
-    description: 'Fachkrankenschwester/-pfleger - Operationsdienst',
-    tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
-    postedDate: '2026-03-18'
-  },
-  {
-    id: '22',
-    title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
-    hospital: 'PerMed medizinische Personaldienstleistung GmbH',
-    location: 'Wolfsberg',
-    type: 'Vollzeit',
-    description: 'Fachkrankenschwester/-pfleger - Operationsdienst',
-    tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
-    postedDate: '2026-03-18'
-  },
-  {
-    id: '23',
-    title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
-    hospital: 'PerMed medizinische Personaldienstleistung GmbH',
-    location: 'Liezen',
-    type: 'Vollzeit',
-    description: 'Fachkrankenschwester/-pfleger - Operationsdienst',
-    tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
-    postedDate: '2026-03-18'
-  },
-  {
-    id: '24',
-    title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
-    hospital: 'PerMed medizinische Personaldienstleistung GmbH',
-    location: 'Bezirk: Villach Stadt',
-    type: 'Vollzeit',
-    description: 'Fachkrankenschwester/-pfleger - Operationsdienst',
-    tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
-    postedDate: '2026-03-18'
-  },
-  {
     id: '25',
     title: 'Fachkrankenschwester/-pfleger - Operationsdienst',
     hospital: 'PerMed medizinische Personaldienstleistung GmbH',
-    location: 'Knittelfeld',
+    location: 'Bezirk: Graz(Stadt)',
     type: 'Vollzeit',
     description: 'Fachkrankenschwester/-pfleger - Operationsdienst',
     tags: ['Fachkrankenschwester/-pfleger - Operationsdienst'],
